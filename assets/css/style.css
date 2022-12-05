@@ -19,26 +19,15 @@ header {
   font-color: black
 }
 
-nav {
-  background-color: pink;
-  padding: 14px 16px;
+#menu{
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
 }
 
-nav a {
-  text-align: center;
-  padding: 14px 16px;
-  border: 1px solid;
-  margin: 1px solid;
-}
-
-a {
-  font-weight: bold;
-  text-decoration: none;
-  }
-
-a:hover{
-  font-style: italic; 
-  color: blue;
+#menu li{
+  float: right;
+  margin-right: 30px;
 }
 
 #hero-image{
