@@ -1,0 +1,48 @@
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: verdana;
+}
+h1 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+header {
+  background-color: white;      
+  font-weight: bold;
+  font-color: black
+}
+
+nav {
+  background-color: pink;
+  padding: 14px 16px;
+}
+
+nav a {
+  text-align: center;
+  padding: 14px 16px;
+  border: 1px solid;
+  margin: 1px solid;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  }
+
+a:hover{
+  font-style: italic; 
+  color: blue;
+}
+
+#hero-image{
+  height:600px;
+  width: 100%;
+  background: url/*NEED TO GET A URL IMAGE*/ no-repeat center center
+}
