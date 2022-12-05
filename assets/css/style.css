@@ -20,13 +20,14 @@ header {
 }
 
 #menu{
+  float:right;
   font-size: 110%;
   list-style-type: none;
   letter-spacing: 4px;
 }
 
 #menu li{
-  float: right;
+  float:left;
   margin-right: 30px;
 }
 
