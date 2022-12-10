@@ -3,24 +3,32 @@
 
   <head>
      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Book a Lesson</title>
   </head>
-
-  <body>
-     <nav>
+  
+<body>
+  <header>
+     <a href="index.html">
+        <h2 ID="logo">Photography for Beginners</h2>
+      </a>
+    </header>
+    <nav>
       <ul id="menu">
       <li><a href="index.html">Home</a></li>
-      <li><a href="what-is-photography.html">What is Photography?</a></i>
+      <li><a href="what-is-photography.html">What is Photography</a></i>
       <li><a href="evolution-of-photography.html">Evolution of Photography</a></li>
       <li><a href="taking-a-photo.html">Taking a Photo</a></li>
       <li><a href="book-a-lesson.html">Book a lesson</a></li>
      </ul>
     </nav>
 
+  <section id="booking-form">
+  <div id="book-form">
   <h2>Book a lesson</h2>
-  <section>
+  </div>
     <p>Booking form </p>
-  
+  <div id="form">
    <form action="/">
       <label for="fname">First name:</label><br>
       <input type="text" id="fname" name="fname" required><br>
@@ -32,11 +40,22 @@
       <input type="text" id="lessonrequest" name="lessonrequest" placeholder="please enter lesson requirements" required><br><br>
       <input type="submit" value="Submit">
     </form>
+  </div>
   </section>
-    <hr>
+  
     <br>
-
+      <div id="lesson-photo">
       <img title="Photography lesson" src="assets/images/photographylesson.jpg" width="400">
+      </div>
+      <br>
+        <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+        </ul>
+    </footer>
     
   </body>
 </html>
