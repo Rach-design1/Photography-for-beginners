@@ -73,6 +73,9 @@ nav {
 
 #welcome-to {
   order: 2;
+  padding-top: 30px;
+  width:33%;
+  margin:;
 }
 
 /*hero image*/
@@ -80,6 +83,33 @@ nav {
   height:600px;
   width: 100%;
   background: url/*NEED TO GET A URL IMAGE*/ no-repeat center center
+}
+
+/* Photography lesson times */
+
+#photography-lessons{
+    background-image: url(/assets/images/lesson-times.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#photography-lessons div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#photography-lessons h2 {
+    color: #fafafa;
 }
 
 /*evolution page*/
