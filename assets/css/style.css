@@ -117,74 +117,37 @@ nav {
     color: #fafafa;
 }
 
-/*what is photography page*/
-#evolution-photo {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-  }
-/*photo div*/
-#antique {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-#antique-camera {
-    padding-top: 30px;
-    width:33%;
-    float: center;
-}
-/*photo div*/
-#slr {
-    padding-top: 30px;
-    width:33%;
-    float: left;
-}
-
-#slr-camera {
-    padding-top: 30px;
-    width: 33%;
-    float: center;
-}
-
-/*photo div*/
-#dslr {
-    padding-top: 30px;
-    width:33%;
-    float: left;
-}
-
-#dslr-camera {
-    padding-top: 30px;
-    width: 33%;
-    float: center;
-}
-
-/*photo div*/
-#mirrorless-camera {
-    padding-top: 30px;
-    width:33%;
-    float: left;
-}
-
-#mirrorless {
-    padding-top: 30px;
-    width: 33%;
-    float: center;
-}
-
 /*taking a photo page*/
+.content-container-taking {
+    display: flex;
+  }
+
 #taking-photo {
     padding-top: 30px;
     width: 33%;
-    float: center;
-}
+    content: 30px;
+    width:20%;
+    border: 1px solid gray;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    background-color: #d3e7ee;
+  }
 
 #step {
     padding-top: 30px;
     width: 33%;
-    float: center;
-}
+    content: 30px;
+    width:20%;
+    border: 1px solid gray;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+    background-color: #d3e7ee;
+  }
+
 /*photo*/
 #woman-photo {
     padding-top: 30px;
@@ -192,23 +155,47 @@ nav {
     float: center;
 }
 
+.content-container-tri {
+    display: flex;
+}
+
 #exposure-triangle {
     padding-top: 30px;
     width: 33%;
-    float: center;
-}
+    content: 30px;
+    width:20%;
+    border: 1px solid gray;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+    background-color: #d3e7ee;
+  }
 
 #e-triangle {
     padding-top: 30px;
     width: 33%;
-    float: center;
-}
+    content: 20px;
+    width: 30%;
+    border: 1px solid gray;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
 #practice {
     padding-top: 30px;
     width: 33%;
-    float: center;
-}
+    content: 30px;
+    width:20%;
+    border: 1px solid gray;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+    background-color: #d3e7ee;
+  }
 
 
 /*book a lesson page*/
@@ -224,8 +211,7 @@ nav {
   margin-right: 10px;
   margin-left: 20px;
   background-color: #d3e7ee;
-  
-}
+  }
 
 #form {
   order: 1;
@@ -256,8 +242,7 @@ nav {
 }
 
 #lesson-photo {
-  order: 3;
-  float: right;
+  display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
   width:25%;
@@ -266,7 +251,6 @@ nav {
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 20px;
-  background-color: #d3e7ee;
 }
 
 /*footer section*/
