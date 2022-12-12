@@ -282,7 +282,6 @@ footer{
   
     #welcome-to{
         width: 65%;
-        height: 100%;
         margin: 0 auto;
         text-align: center;
         center center no repeat
@@ -295,10 +294,6 @@ footer{
         max-width: 90vw;
         center center no repeat       
     }
-
-   .image-cameras{
-     display: flex-wrap;
-   }
 
     #photography-lessons div {
         width: 100%;
@@ -322,7 +317,6 @@ footer{
   
     #welcome-to{
         width: 65%;
-        height: 100%;
         margin: 0 auto;
         text-align: center;
         column-count: 3;
@@ -371,7 +365,30 @@ footer{
     }
 }
 
-
+/* Create four equal columns that floats next to each other */
+.column {
+float: center;
+width: 25%;
+padding: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+.column {
+width: 50%;
+}
+}
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+}
+}
 
 
 
