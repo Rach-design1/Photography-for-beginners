@@ -145,14 +145,14 @@ nav {
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 30px;
-    background-color: #d3e7ee;
+    background-color: #d3e7ee; 
   }
 
 /*photo*/
 #woman-photo {
     padding-top: 30px;
     width: 33%;
-    float: center;
+    float: center;   
 }
 
 .content-container-tri {
@@ -177,7 +177,6 @@ nav {
     width: 33%;
     content: 20px;
     width: 30%;
-    border: 1px solid gray;
     margin-top: 0px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -197,6 +196,17 @@ nav {
     background-color: #d3e7ee;
   }
 
+/*Portfolio page*/
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
 
 /*book a lesson page*/
 #book-form {
@@ -241,18 +251,6 @@ nav {
   background-color: #d3e7ee;
 }
 
-#lesson-photo {
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width:25%;
-  border: 1px solid gray;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
 /*footer section*/
 footer{
   height: 150px;
@@ -272,3 +270,70 @@ footer{
     padding: 5%;
     color: #777777;
 }
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #welcome-to{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #image-camera {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+   #photo{
+        column-count: 3;
+    }
+
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+    #welcome-to{
+        column-count: 3;
+    }
+
+   #photo{
+        column-count: 3;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+    #welcome-to{
+        column-count: 2;
+    }
+
+   #photo{
+        column-count: 2;
+    }
+}
+
+
+
+
+
+
+
