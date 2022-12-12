@@ -84,7 +84,7 @@ nav {
   width:33%;
   border: 1px solid gray;
   margin-top: 80px;
-  margin-bottom: 140px;
+  margin-bottom: 80px;
   margin-right: 150px;
   margin-left: 80px;
   background-color: #d3e7ee;
@@ -200,7 +200,7 @@ nav {
 #photo {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0px;
 }
 
@@ -275,16 +275,30 @@ footer{
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
+
+    #welcome-photographers{
+      justify-content: space-around;
+    }
+  
     #welcome-to{
         width: 65%;
-        height: 1200px;
+        height: 100%;
         margin: 0 auto;
+        text-align: center;
+        center center no repeat
     }
 
     #image-camera {
         padding: 30px 0;
         margin-top: 0;
+        text-align: center;
+        max-width: 90vw;
+        center center no repeat       
     }
+
+   .image-cameras{
+     display: flex-wrap;
+   }
 
     #photography-lessons div {
         width: 100%;
@@ -302,21 +316,47 @@ footer{
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-    #menu{
+    #welcome-photographers{
+      justify-content: space-around;
+    }
+  
+    #welcome-to{
+        width: 65%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        column-count: 3;
+        center center no repeat
+        display: flex-wrap; 
+      
+    }
+
+    #image-camera {
+        padding: 30px 0;
+        margin-top: 0;
+        text-align: center;
+        max-width: 90vw;
+        center center no repeat
+        
+    }
+
+    #photography-lessons div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+   #photo{
+        column-count: 3;
+   }
+  
+  #menu{
         clear: left;
         float: left;
         margin-left: 30px; 
         margin-bottom: 20px;
         line-height: 25px;
-    }
-
-
-    #welcome-to{
-        column-count: 3;
-    }
-
-   #photo{
-        column-count: 3;
     }
 }
 
