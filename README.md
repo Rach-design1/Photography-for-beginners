@@ -1,5 +1,7 @@
 README.md for Photography for Beginners Website, by Rachel Lawson. Student number L3007866 at South Staffordshire College.
 
+Hi User, Welcome to my README.md for 'Photography for Beginners' website, I hope you enjoy using the site and it makes you want to pick up a Camera.
+
 This webpage explains the basics a beginner photographer would need to know when starting their journey in Photography. 
 
 The website has four pages, these are: Index/Home, Taking a Photo, Portfolio and Book a Lesson.
@@ -21,17 +23,15 @@ Taking a Photo page:
 This page also has the logo and Navigation at the top.
 It has the main aim of teaching a beginner Photographer how to take their first Photo. 
 
-There is a brief taking a photo section and some general guidelines of things to consider before taking the photo.
+There is a brief taking a photo section.
 
 Next there is a photo of a woman taking a photo, this aids the visuality of the website and breaks up the text a bit, without being too distracting.
-
-Then there is a Take a Photo - Step by Step Guide. This is made up of an ordered list, as the steps require being followed in order. 
 
 The section on the Exposure triangle gives a basic explaination on what it is and how it helps. 
 
 The diagram image is mine I made based on the standard Exposure Triangles. 
 
-The Practice, Practice, Practice section is just a fun little section reminding the viewer that practice and having fun is the key to Photography, also joining a local Camera Club is fantastic too.
+Then there is a Take a Photo - Step by Step Guide. This is made up in boxes that are easy to read and similar to index page to give a consistent flow to the user. 
 
 The same Footer section is on this page with the social media links.
 
@@ -54,3 +54,22 @@ The boxes I used are the pale blue colouring again, I used this throughout the w
 
 The Footer section is on this page with the social media links.
 
+Responsive Design -
+Responsive design is used throught the website to make it easier for the user when viewing the site on different devices, such as 4K screen, PC, Large Laptop, Laptop, Tablet, Mobile and more. 
+
+Credits/References - 
+The Photographs used are from three main sources:
+Myself - Rachel Lawson, I own the copyright to these images, so nobody can use these without my written permisson, (bird.jpg, checked.jpg, einstein-bird.jpg, elle-hand.jpg, wildlife.jpg, yellow.jpg). 
+My partner Steve Hawkes Photography has also provided me with one image and the same copyright applies to his images(street-male.jpg).
+The other images were free stock images that were copyright free from www.pexels.com
+
+No Bootstrap or similar were used to code this website as I'd started coding the website when going through the HTML and CSS Sections and then added a little part similar to when learning the Love Running Project, as this worked well with the information I wanted to have on my website - it is purposely simple and non distracting, as the website is for beginners so it doesn't need to overly complicate anything! Plus the main purpose is to get someone to take their first photos and to book a lesson if they want to learn more. 
+
+Any issues/bugs/WS3 CSS Validation-
+
+Extra information/Anything I would add if developing the website further -
+
+Thank you for spending the time looking at my README.md and my Website. I appreciate it. Hopefully you have a go at Photography too; I've been doing Photography for just under a year now and it's amazing fun, really recommend it. It's a great way to create Art, meet new people, experience new places and wildlife too.
+
+Best Regards,
+Rachel Lawson 
