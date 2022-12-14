@@ -9,13 +9,13 @@ The website has four pages, these are: Index/Home, Taking a Photo, Portfolio and
 Index/Home Page:
 This page has a few main features. I wanted the design to be simple and not distracting to the user, especially as the website aim is for beginner photographers who just need basic information so they can take a photo, plus also access to be able to sign up to Photography lessons.
 
-The page consists of a navigation bar to enable users to easily navigate around the site at their greatest convinience and leisure. To the left of the Navigation bar is my site logo "Photography for Beginners' I love how simple and elegant it looks and not too distracting!
+The page consists of a navigation bar to enable users to easily navigate around the site at their greatest convenience and leisure. To the left of the Navigation bar is my site logo "Photography for Beginners' I love how simple and elegant it looks and not too distracting!
 
 There is a photo of a woman taking a photo, I purposely chose a female Photographer as there is still a lot more men in Photography than Women, so I wanted to encourage Women that they can do it too. 
 
-My vision section is important as it explains my vision with the Photography website, lessons available and the studio (studio isn't actually a real studio yet (highly expensive to run), so I haven't put an address on for that reason)!  I also really like the pale blue colour as it isn't too distracting, but breaks up the white a bit without too much colour! I love a white background as I find it too distracting with lots of colours and photos on a background.
+My vision section is important as it explains my vision with the Photography website, lessons available and the studio (studio isn't actually a real studio yet (highly expensive to run), so I haven't put an address on for that reason)!  I also really like the pale blue colour as it isn't too distracting but breaks up the white a bit without too much colour! I love a white background as I find it too distracting with lots of colours and photos on a background.
 
-The Photography lessons schedule details the lessons available, the times and the locations.  When you navigate to the book a lesson page, it asks you to type in which lesson(s) you are looking for.  Each div has The details needed, a nice fontawesome logo picture to represent better what it is. The background image is of a camera set up to take a landscpape Photograph.
+The Photography lessons schedule details the lessons available, the times and the locations.  When you navigate to the book a lesson page, it asks you to type in which lesson(s) you are looking for.  Each div has the details needed, a nice fontawesome logo picture to represent better what it is. The background image is of a camera set up to take a landscape Photograph.
 
 The Footer section has links to social media pages, these include Facebook, Twitter, Youtube and Instagram. If this was for a real Photography lesson site then these would all link to actual Photography Studio social media sites. 
 
@@ -27,7 +27,7 @@ There is a brief taking a photo section.
 
 Next there is a photo of a woman taking a photo, this aids the visuality of the website and breaks up the text a bit, without being too distracting.
 
-The section on the Exposure triangle gives a basic explaination on what it is and how it helps. 
+The section on the Exposure triangle gives a basic explanation on what it is and how it helps. 
 
 The diagram image is mine I made based on the standard Exposure Triangles. 
 
@@ -46,7 +46,7 @@ The Footer section is on this page with the social media links.
 Book a Lesson page:
 The Book a Lesson page is where the user can book a lesson and/or get in touch via phone and email (fake number and email address used for this). 
 
-The booking form consists of the main fields of information necessary for booking a lesson: First name, Last name, Email address and a Lesson request field where they can enter the lesson they want etcs. Then a submit button. If this was a live website for a Photographer offering lessons, then the form would go to the email address via a database system, as I understand. However this form just goes to the Code Institue Form dump it said to use. 
+The booking form consists of the main fields of information necessary for booking a lesson: First name, Last name, Email address and a Lesson request field where they can enter the lesson they want etcs. Then a submit button. If this was a live website for a Photographer offering lessons, then the form would go to the email address via a database system, as I understand. However this form just goes to the Code Institute Form dump it said to use. 
 
 The Get in Touch div just contains a phone number and email address, as explained above these are fake just for the purpose of the course.
 
@@ -55,26 +55,26 @@ The boxes I used are the pale blue colouring again, I used this throughout the w
 The Footer section is on this page with the social media links.
 
 Responsive Design -
-Responsive design is used throught the website to make it easier for the user when viewing the site on different devices, such as 4K screen, PC, Large Laptop, Laptop, Tablet, Mobile and more. 
+Responsive design is used through the website to make it easier for the user when viewing the site on different devices, such as 4K screen, PC, Large Laptop, Laptop, Tablet, Mobile and more. 
 These were made using Media Queries and a lot of researching different options online and some choice words at times!! This was rather frustrating as you'd think fantastic it's worked, then something else would rear its ugly head at you! I tried my best and in life that's all you can do is your best and see it as an opportunity for learning and growth. This is an area I would like to develop a greater understanding of further outside of this website project. 
 
 Testing - I tested the website on Mac myself, I don't have the financial option to buy a Windows computer too, but luckily my sister let me send her the link to test on her Windows computer.  It has been tested mainly through Google Chrome browser and Safari Browser. Having issues downloading the firefox browser on the Macbook so haven't tested on that yet. Have tested the site on mobile devices, don't have the finances to buy an ipad to personally test on one, but have tested it on DevTools tablet/ipad options. 
 
 Any issues/bugs/WS3 CSS Validation/Chrome Developer Lighthouse -
-Using Lighthouse on Developer (Dev) Tools; this flagged up that under Accessibilty it didn't like the Gray text as there was not enough contrast between Gray text and a white background, so gone back to my original colour of Black. I can understand this as Black does seem easier to read now.  Pulled up few images without alt attribute, so added one, but strange that it didn't tell us to on the love running gallery and this was part of our learning material; good Lighthouse picked up on it and gave me the opportunity for more learning.
+Using Lighthouse on Developer (Dev) Tools; this flagged up that under Accessibility it didn't like the Gray text as there was not enough contrast between Gray text and a white background, so gone back to my original colour of Black. I can understand this as Black does seem easier to read now.  Pulled up few images without alt attribute, so added one, but strange that it didn't tell us to on the love running gallery and this was part of our learning material; good Lighthouse picked up on it and gave me the opportunity for more learning.
 
 Chrome Developer Lighthouse Scores (Not Incognito mode)- 
 Below are the Desktop scores - 
-Index/Home - Performance: 99 Accessibilty: 97 Best Practices: 83 SEO: 100
-Taking a Photo - Performance: 97 Accessibilty: 97 Best Practices: 92 SEO: 100
-Portfolio - Performance: 89 Accessibilty: 97 Best Practices: 92 SEO: 100 
-Book a Lesson - Performance: 99 Accessibilty: 97 Best Practices: 92 SEO: 100
+Index/Home - Performance: 99 Accessibility: 97 Best Practices: 83 SEO: 100
+Taking a Photo - Performance: 97 Accessibility: 97 Best Practices: 92 SEO: 100
+Portfolio - Performance: 89 Accessibility: 97 Best Practices: 92 SEO: 100 
+Book a Lesson - Performance: 99 Accessibility: 97 Best Practices: 92 SEO: 100
 
 Below are the Mobile scores -
-Index/Home - Performance: 95 Accessibilty: 97 Best Practices: 92 SEO: 95
-Taking a Photo - Performance: 94 Accessibilty: 97 Best Practices: 92 SEO: 95
-Portfolio - Performance: 70 Accessibilty: 97 Best Practices: 92 SEO: 95
-Book a Lesson - Performance: 95 Accessibilty: 97 Best Practices: 92 SEO: 96
+Index/Home - Performance: 95 Accessibility: 97 Best Practices: 92 SEO: 95
+Taking a Photo - Performance: 94 Accessibility: 97 Best Practices: 92 SEO: 95
+Portfolio - Performance: 70 Accessibility: 97 Best Practices: 92 SEO: 95
+Book a Lesson - Performance: 95 Accessibility: 97 Best Practices: 92 SEO: 96
 
 Deployment Procedure - 
 I deployed my website using GitHub Pages.
@@ -84,7 +84,7 @@ Please see the attached photos of the above.
 
 Credits/References - 
 The Photographs used are from four main sources:
-Myself - Rachel Lawson, I own the copyright to these images, so nobody can use these without my written permisson, (bird.webp, checked.webp, einstein-bird.webp, elle-hand.webp, wildlife.webp, yellow.webp). 
+Myself - Rachel Lawson, I own the copyright to these images, so nobody can use these without my written permission, (bird.webp, checked.webp, einstein-bird.webp, elle-hand.webp, wildlife.webp, yellow.webp). 
 My partner Steve Hawkes Photography has also provided me with one image and the same copyright applies to his images(street-male.webp).
 The other images were free stock images that were copyright free from www.pexels.com and one was from www.unsplash.com
 
@@ -96,4 +96,5 @@ Learning better ways to do things more time efficiently and using a more powerfu
 Thank you for spending the time looking at my README.md and my Website. I appreciate it. Hopefully you have a go at Photography too; I've been doing Photography for just under a year now and it's amazing fun, really recommend it. It's a great way to create Art, meet new people, experience new places and wildlife too. The main thing is to have fun.
 
 Best Regards,
-Rachel Lawson 
+Rachel Lawson
+
