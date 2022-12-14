@@ -56,20 +56,44 @@ The Footer section is on this page with the social media links.
 
 Responsive Design -
 Responsive design is used throught the website to make it easier for the user when viewing the site on different devices, such as 4K screen, PC, Large Laptop, Laptop, Tablet, Mobile and more. 
+These were made using Media Queries and a lot of researching different options online and some choice words at times!! This was rather frustrating as you'd think fantastic it's worked, then something else would rear its ugly head at you! I tried my best and in life that's all you can do is your best and see it as an opportunity for learning and growth. This is an area I would like to develop a greater understanding of further outside of this website project. 
+
+Testing - I tested the website on Mac myself, I don't have the financial option to buy a Windows computer too, but luckily my sister let me send her the link to test on her Windows computer.  It has been tested mainly through Google Chrome browser and Safari Browser. Having issues downloading the firefox browser on the Macbook so haven't tested on that yet. Have tested the site on mobile devices, don't have the finances to buy an ipad to personally test on one, but have tested it on DevTools tablet/ipad options. 
+
+Any issues/bugs/WS3 CSS Validation/Chrome Developer Lighthouse -
+Using Lighthouse on Developer (Dev) Tools; this flagged up that under Accessibilty it didn't like the Gray text as there was not enough contrast between Gray text and a white background, so gone back to my original colour of Black. I can understand this as Black does seem easier to read now.  Pulled up few images without alt attribute, so added one, but strange that it didn't tell us to on the love running gallery and this was part of our learning material; good Lighthouse picked up on it and gave me the opportunity for more learning.
+
+Chrome Developer Lighthouse Scores (Not Incognito mode)- 
+Below are the Desktop scores - 
+Index/Home - Performance: 99 Accessibilty: 97 Best Practices: 83 SEO: 100
+Taking a Photo - Performance: 97 Accessibilty: 97 Best Practices: 92 SEO: 100
+Portfolio - Performance: 89 Accessibilty: 97 Best Practices: 92 SEO: 100 
+Book a Lesson - Performance: 99 Accessibilty: 97 Best Practices: 92 SEO: 100
+
+Below are the Mobile scores -
+Index/Home - Performance: 95 Accessibilty: 97 Best Practices: 92 SEO: 95
+Taking a Photo - Performance: 94 Accessibilty: 97 Best Practices: 92 SEO: 95
+Portfolio - Performance: 70 Accessibilty: 97 Best Practices: 92 SEO: 95
+Book a Lesson - Performance: 95 Accessibilty: 97 Best Practices: 92 SEO: 96
+
+Deployment Procedure - 
+I deployed my website using GitHub Pages.
+
+Frameworks/Design layout plans/Sketches -
+Please see the attached photos of the above. 
 
 Credits/References - 
-The Photographs used are from three main sources:
-Myself - Rachel Lawson, I own the copyright to these images, so nobody can use these without my written permisson, (bird.jpg, checked.jpg, einstein-bird.jpg, elle-hand.jpg, wildlife.jpg, yellow.jpg). 
-My partner Steve Hawkes Photography has also provided me with one image and the same copyright applies to his images(street-male.jpg).
-The other images were free stock images that were copyright free from www.pexels.com
+The Photographs used are from four main sources:
+Myself - Rachel Lawson, I own the copyright to these images, so nobody can use these without my written permisson, (bird.webp, checked.webp, einstein-bird.webp, elle-hand.webp, wildlife.webp, yellow.webp). 
+My partner Steve Hawkes Photography has also provided me with one image and the same copyright applies to his images(street-male.webp).
+The other images were free stock images that were copyright free from www.pexels.com and one was from www.unsplash.com
 
-No Bootstrap or similar were used to code this website as I'd started coding the website when going through the HTML and CSS Sections and then added a little part similar to when learning the Love Running Project, as this worked well with the information I wanted to have on my website - it is purposely simple and non distracting, as the website is for beginners so it doesn't need to overly complicate anything! Plus the main purpose is to get someone to take their first photos and to book a lesson if they want to learn more. 
+No Bootstrap were used to code this website as I'd started coding the website when going through the HTML and CSS Sections and then added a little part similar to when learning the Love Running Project, as this worked well with the information I wanted to have on my website - it is purposely simple and non distracting, as the website is for beginners so it doesn't need to overly complicate anything! Plus the main purpose is to get someone to take their first photos and to book a lesson if they want to learn more.  
 
-Any issues/bugs/WS3 CSS Validation-
+Extra information/Anything I would add if developing the website further - 
+Learning better ways to do things more time efficiently and using a more powerful editor than replit (no offence replit, but for next project I'll try GitPod as I've found out now it's the better option).  More clarity on the project and managing the workload in a way that doesn't negatively affect my Health, as I have really struggled with this whilst on this journey. So it is a HUGE achievement to be getting this far. I also feel it is hard going back to education as an Adult learner, as you feel like you haven't done any coursework for a very long time. So setting daily and weekly SMART targets will help. Also celebrating the small accomplishments as well as the bigger ones, they all add up over time.
 
-Extra information/Anything I would add if developing the website further -
-
-Thank you for spending the time looking at my README.md and my Website. I appreciate it. Hopefully you have a go at Photography too; I've been doing Photography for just under a year now and it's amazing fun, really recommend it. It's a great way to create Art, meet new people, experience new places and wildlife too.
+Thank you for spending the time looking at my README.md and my Website. I appreciate it. Hopefully you have a go at Photography too; I've been doing Photography for just under a year now and it's amazing fun, really recommend it. It's a great way to create Art, meet new people, experience new places and wildlife too. The main thing is to have fun.
 
 Best Regards,
 Rachel Lawson 
