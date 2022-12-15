@@ -1,10 +1,11 @@
 README.md for Photography for Beginners Website, by Rachel Lawson. Student number L3007866 at South Staffordshire College.
 
-Hi User, Welcome to my README.md for 'Photography for Beginners' website, I hope you enjoy using the site and it makes you want to pick up a Camera.
-
-This webpage explains the basics a beginner photographer would need to know when starting their journey in Photography. 
+Hi User, Welcome to my README.md for 'Photography for Beginners' website. I hope you enjoy using the site and it makes you want to pick up a Camera.
 
 The website has four pages, these are: Index/Home, Taking a Photo, Portfolio and Book a Lesson.
+
+User Story:
+The User Story of this website is that the user will learn the basics of Photographer to take their first Photo and to then enquire about a lesson, if they would like to, not everyone does like lessons as some just want to take photos as a hobby on their own. The User Story is provided in further details, page by page below.
 
 Index/Home Page:
 This page has a few main features. I wanted the design to be simple and not distracting to the user, especially as the website aim is for beginner photographers who just need basic information so they can take a photo, plus also access to be able to sign up to Photography lessons.
