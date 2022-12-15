@@ -80,7 +80,8 @@ nav {
 }
 
 #welcome-to {
-  order: 2;
+  order: 1;
+  columns: 1;
   padding-top: 30px;
   width:33%;
   border: 1px solid gray;
@@ -371,11 +372,18 @@ footer{
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
     #welcome-to{
-        column-count: 2;
+      column-count: 1;
     }
 
-   #photo{
-        column-count: 1;
+    #photo{
+      column-count: 1;
+    }
+
+    #taking-photo{
+      column-count: 1;
+    }
+    #exposure-triangle{
+      column-count: 1;
     }
 }
 

@@ -55,6 +55,10 @@ The boxes I used are the pale blue colouring again, I used this throughout the w
 
 The Footer section is on this page with the social media links.
 
+Wireframes and Site Map -
+The Wireframes are handwritten and attached on replit and the Site Map is made on Photoshop and attached on Replit. The site Map has managed to be attached underneath, having a techincal hitch with the wireframes not doing the same! 
+![website site map](website-sitemap.jpg)
+
 Responsive Design -
 Responsive design is used through the website to make it easier for the user when viewing the site on different devices, such as 4K screen, PC, Large Laptop, Laptop, Tablet, Mobile and more. 
 These were made using Media Queries and a lot of researching different options online and some choice words at times!! This was rather frustrating as you'd think fantastic it's worked, then something else would rear its ugly head at you! I tried my best and in life that's all you can do is your best and see it as an opportunity for learning and growth. This is an area I would like to develop a greater understanding of further outside of this website project. 
