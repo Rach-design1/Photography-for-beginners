@@ -124,12 +124,11 @@ nav {
     padding-top: 30px;
     width: 33%;
     content: 30px;
-    width:20%;
     border: 1px solid gray;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 80px;
     background-color: #d3e7ee;
   }
 
@@ -144,12 +143,11 @@ nav {
     padding-top: 30px;
     width: 33%;
     content: 30px;
-    width:20%;
     border: 1px solid gray;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 80px;
     background-color: #d3e7ee;
   }
 
@@ -157,11 +155,11 @@ nav {
     padding-top: 30px;
     width: 33%;
     height: auto;
-    content: 20px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    content: 30px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 60px;
   
   }
 
@@ -206,13 +204,12 @@ nav {
 /*book a lesson page*/
 #book-form {
   order: 1;
-  float: left;
   padding-top: 30px;
   content: 30px;
   width:29%;
   border: 1px solid gray;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-right: 10px;
   margin-left: 20px;
   background-color: #d3e7ee;
@@ -302,7 +299,7 @@ footer{
         height: 150px;
         padding: 0;
     }
-
+    
     #step-by-step div {
         width: 100%;
         clear: both;
@@ -313,6 +310,55 @@ footer{
    #photo{
         column-count: 3;
     }
+
+    #taking-photo {
+      width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        center center no repeat 
+    }
+
+  #exposure-triangle {
+      width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        center center no repeat 
+  }
+
+  #woman-photo{
+      width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        center center no repeat 
+  }
+
+  #e-triangle{
+      width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        center center no repeat 
+  }
+
+  #contact{
+      width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        center center no repeat 
+  }
+
+  #book-form{
+      width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        center center no repeat 
+  }
+
+  #form{
+      width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        center center no repeat 
+  }  
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -329,8 +375,7 @@ footer{
         column-count: 3;
         center center no repeat
         display: flex-wrap; 
-      
-    }
+      }
 
     #image-camera {
         padding: 30px 0;
@@ -367,6 +412,24 @@ footer{
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+  #taking-photo {
+      width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        column-count: 3;
+        center center no repeat
+        display: flex-wrap; 
+    }
+
+  #exposure-triangle {
+     width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        column-count: 3;
+        center center no repeat
+        display: flex-wrap; 
+  }
 }
 
 /* For small screens sizes from 800px wide and down */
