@@ -120,9 +120,11 @@ Responsive design is used through the website to make it easier for the user whe
 These were made using Media Queries and a lot of researching different options online and some choice words at times!! This was rather frustrating as you'd think fantastic it's worked, then something else would rear its ugly head at you! I tried my best and in life that's all you can do is your best and see it as an opportunity for learning and growth. This is an area I would like to develop a greater understanding of further outside of this website project. 
 
 ## Testing  
-I tested the website on Mac myself, I don't have the financial option to buy a Windows computer too, but luckily my sister let me send her the link to test on her Windows computer.  It has been tested mainly through Google Chrome browser and Safari Browser. Having issues downloading the firefox browser on the Macbook so haven't tested on that yet. Have tested the site on mobile devices, don't have the finances to buy an ipad to personally test on one, but have tested it on DevTools tablet/ipad options. 
+I tested the website on Mac myself, I don't have the financial option to buy a Windows computer too, but luckily my sister let me send her the link to test on her Windows computer.  It has been tested mainly through Google Chrome browser on macOS. 108.0.5359.124. 2022-12-14 and Safari Browser 16.1	2022-10-24.
+Having issues downloading the firefox browser on the Macbook so haven't tested on that yet. Have tested the site on mobile devices, don't have the finances to buy an ipad to personally test on one, but have tested it on DevTools tablet/ipad options. 
 
 #### Any issues/bugs -
+Text box on form kept going to the right, but now has centered where I want by adapting the css styling.
 Please be aware that there were technical issues when doing my recent commits from Replit to GitHub and GitHub is now not showing these recent commits. I have let Robert McLaughlin and The Code Institute Student support know this. This is going to effect the deployed website unless there is a way round this we (Robert & I) can't think of yet! The main issues that will arise are responsive text box on index on new code has a 1 column rule on smaller devices, so the text doesn't overlap.  
 
 #### WS3 CSS Validation -
@@ -150,11 +152,25 @@ I deployed my website using GitHub Pages.
 
 ## Credits/References  
 The Photographs used are from four main sources:
-Myself - Rachel Lawson, I own the copyright to these images, so nobody can use these without my written permission, (bird.webp, checked.webp, einstein-bird.webp, elle-hand.webp, wildlife.webp, yellow.webp). 
+Myself - Rachel Lawson, I own the copyright to these images, so nobody can use these without my written permission, (bird.webp, checked.webp, einstein-bird.webp, elle-hand.webp, wildlife.webp, yellow.webp, exposure-triangle.webp). 
 My partner Steve Hawkes Photography has also provided me with one image and the same copyright applies to his images(street-male.webp).
-The other images were free stock images that were copyright free from www.pexels.com and one was from www.unsplash.com
+The other images were free stock images that were copyright free from www.pexels.com and one was from www.unsplash.com. See below.
+pexels-diego-felipe-de-souza-1785134.webp - 'taking photo'
+pexels-matheus-bertelli-13832964.webp - 'street'
+pexels-yuksel-kocaman-1640057.webp - 'wedding'
+will-shirley-xRKcHoCOA4Y-unsplash.webp - 'elephant'
+pexels-andre-furtado-1264210.webp - 'camera lady'
+pexels-photomix-company-212372.webp - 'lesson times & step by step'
 
-No Bootstrap were used to code this website as I'd started coding the website when going through the HTML and CSS Sections and then added a little part similar to when learning the Love Running Project, as this worked well with the information I wanted to have on my website - it is purposely simple and non distracting, as the website is for beginners so it doesn't need to overly complicate anything! Plus the main purpose is to get someone to take their first photos and to book a lesson if they want to learn more.  
+
+CSS Media Query code snippet columns was referenced from https://www.w3schools.com/cssref/tryit.php?filename=trycss3_media_columns and adapted as necessary.
+
+Footer - Code snippet was referenced from Love Running and adapted with adding aria-label to make it more accessible to screen readers, I feel this is highly important.
+
+No Bootstrap were used to code this website as I'd started coding the website when going through the HTML and CSS Sections.
+
+I added a code snippet from Love Running for my 'Photography lessons schedule' and my 'Step by Step guide', as this was super effective way to present this information, so why rewrite the wheel? Furthermore, I replaced all the information text with my own, changed styles a bit and replaced the photo.
+It is purposely simple and non distracting, as the website is for beginners so it doesn't need to overly complicate anything! Plus the main purpose is to get someone to take their first photos and to book a lesson if they want to learn more. I really like how effective it is.
 
 ## Anything I would add if developing the website further 
 If I was developing this site further, then this could be an opportunity to grow the site by adding a blog with additional online lessons; this could incorporate a video as well as text for better accessibility needs.  This would then generate more options for retyrning users, as well as new users.

@@ -450,6 +450,7 @@ footer{
     }
 }
 
+/*Credit - code below referenced from https://www.w3schools.com/cssref/tryit.php?filename=trycss3_media_columns and adapted as necessary*/
 /* Create four equal columns that floats next to each other */
 .column {
 width: 25%;
