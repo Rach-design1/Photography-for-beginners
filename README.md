@@ -143,7 +143,7 @@ I then had to change my repository from Private to Public so I could deploy it.
 
 #### WS3 CSS Validation -
 When using WS3 CSS Validation the following occured.
-On first go it pulled up that it didn't like the coding 'center center no repeat' which is strange as this is what the course taught us in the Love Running project, so I would like some feedback as to why the validator didn't accept this, but we were taught to write it? Confusing?!
+On first go it pulled up that it didn't like the coding 'center center no repeat' which is strange as this is what the course taught us in the Love Running project, so I would like some feedback as to why the validator didn't accept this, but we were taught to write it? Confusing?!  It also didn't like the fontawesome link or the content dispaly type of px, so changed that too.
 ![code validator attempt one](supporting-docs/code-validator-one.png)
 
 

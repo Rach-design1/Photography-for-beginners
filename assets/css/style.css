@@ -123,7 +123,6 @@ nav {
 #taking-photo {
     padding-top: 30px;
     width: 33%;
-    content: 30px;
     border: 1px solid gray;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -142,7 +141,6 @@ nav {
 #exposure-triangle {
     padding-top: 30px;
     width: 33%;
-    content: 30px;
     border: 1px solid gray;
     margin-top: 20px;
     margin-bottom: 80px;
@@ -155,7 +153,6 @@ nav {
     padding-top: 30px;
     width: 33%;
     height: auto;
-    content: 30px;
     margin-top: 20px;
     margin-bottom: 80px;
     margin-right: 150px;
@@ -219,7 +216,6 @@ nav {
   order: 2;
   padding-top: 30px;
   padding-bottom: 30px;
-  content: 30px;
   width:35%;
   border: 1px solid gray;
   margin-top: 20px;
@@ -233,7 +229,6 @@ nav {
   order: 2;
   padding-top: 30px;
   padding-bottom: 30px;
-  content: 20px;
   width:30%;
   border: 1px solid gray;
   margin-top: 20px;
@@ -365,6 +360,7 @@ footer{
         text-align: center;
         column-count: 3;
         display: flex-wrap; 
+    
       }
 
     #image-camera {
