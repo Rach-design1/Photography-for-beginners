@@ -1,10 +1,9 @@
 # README.md for Photography for Beginners Website
 ## Website designed by Rachel Lawson. 
 Student number L3007866 at South Staffordshire College.
+View live website here https://rach-design1.github.io/Photography-for-beginners/
 
 
-## Disclaimer
-*Please be aware that there were technical issues when doing my recent commits from Replit to GitHub and GitHub is now not showing these recent commits in the Main Branch. I have let Robert McLaughlin and The Code Institute Student support know this. This is going to effect the deployed website unless there is a way round this! The main issues that will arise are responsive text box on index on new code has a 1 column rule on smaller devices, so the text doesn't overlap.  If it cannot be sorted then we have agreed to send this replit version as a zipped file with this README.md and the GitHub Pages link, so there is a live version of the nearly latest version and then the user can see all of my GitHub commits as there must be over 26 and GitHub only showing 24. My best resort at saving this is trying to push a commit from replit to GitHub in another branch (see 'most-recent') and seeing if that has the desired effect!* 
 
 # Index - Table of Contents:
 * Welcome
@@ -139,10 +138,16 @@ Having issues downloading the firefox browser on the Macbook so haven't tested o
 
 #### Any issues/bugs -
 Text box on form kept going to the right, but now has centered where I want by adapting the css styling. See GitHub commits on the main branch to see all original website changes.
-Please be aware that there were technical issues when doing my recent commits from Replit to GitHub and GitHub is now not showing these recent commits. I have let Robert McLaughlin and The Code Institute Student support know this. This is going to effect the deployed website unless there is a way round this we (Robert & I) can't think of yet! The main issues that will arise are responsive text box on index on new code has a 1 column rule on smaller devices, so the text doesn't overlap.  
+Please be aware that there were technical issues when doing my recent commits from Replit to GitHub and GitHub main branch is now not showing these recent commits. I have let Robert McLaughlin and The Code Institute Student support know this. The main issues that will arise are responsive text box on index on new code has a 1 column rule on smaller devices, so the text doesn't overlap. I have hopefully rectified this by pushing a commit from replit to GitHub in another branch (see 'most-recent') and seeing if that has the desired effect!
+I then had to change my repository from Private to Public so I could deploy it.
 
 #### WS3 CSS Validation -
 When using WS3 CSS Validation the following occured.
+On first go it pulled up that it didn't like the coding 'center center no repeat' which is strange as this is what the course taught us in the Love Running project, so I would like some feedback as to why the validator didn't accept this, but we were taught to write it? Confusing?!
+![code validator attempt one](supporting-docs/code-validator-one.png)
+
+
+
 
 #### Chrome Developer Lighthouse -
 Using Lighthouse on Developer (Dev) Tools; this flagged up that under Accessibility it didn't like the Gray text as there was not enough contrast between Gray text and a white background, so gone back to my original colour of Black. I can understand this as Black does seem easier to read now.  Pulled up few images without alt attribute, so added one, but strange that it didn't tell us to on the love running gallery and this was part of our learning material; good Lighthouse picked up on it and gave me the opportunity for more learning.
@@ -161,7 +166,15 @@ Portfolio - Performance: 70 Accessibility: 97 Best Practices: 92 SEO: 95
 Book a Lesson - Performance: 95 Accessibility: 97 Best Practices: 92 SEO: 96
 
 ## Deployment 
-I deployed my website using GitHub Pages.
+### How to deploy this site
+I deployed my website using GitHub Pages.  I did this by pushing a commit from replit to GitHub in another branch (see 'most-recent') and then using this to deploy from.
+I then had to change my repository from Private to Public so I could deploy it.
+
+* In GitHub most-recent branch repository, navigate to Settings tab, choose pages tab (on the left)
+* From Source section, choose 'Deplo from a Branch' option. Ensure you choose 'most-recent' NOT main! Click Save.
+* Click root if not automatically selected
+* clicking the visist site button will take you to the site or clicking on the link (as the visit site button didn't come up for me as instructed)
+* Any changes and adaptations to the 'most-recent' branch will take effect on the live website.
 
 
 ## Credits/References  

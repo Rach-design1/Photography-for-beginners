@@ -279,8 +279,7 @@ footer{
     #welcome-to{
         width: 65%;
         margin: 0 auto;
-        text-align: center;
-        center center no repeat
+        text-align: center;    
     }
 
     #image-camera {
@@ -289,8 +288,7 @@ footer{
         text-align: center;
         width: 100%;
         height: auto;
-        max-width: 90vw;
-        center center no repeat       
+        max-width: 90vw;     
     }
 
     #photography-lessons div {
@@ -314,50 +312,43 @@ footer{
     #taking-photo {
       width: 65%;
         margin: 0 auto;
-        text-align: center;
-        center center no repeat 
+        text-align: center; 
     }
 
   #exposure-triangle {
       width: 65%;
         margin: 0 auto;
         text-align: center;
-        center center no repeat 
   }
 
   #woman-photo{
       width: 65%;
         margin: 0 auto;
         text-align: center;
-        center center no repeat 
   }
 
   #e-triangle{
       width: 65%;
         margin: 0 auto;
         text-align: center;
-        center center no repeat 
   }
 
   #contact{
       width: 65%;
         margin: 0 auto;
         text-align: center;
-        center center no repeat 
   }
 
   #book-form{
       width: 65%;
         margin: 0 auto;
         text-align: center;
-        center center no repeat 
   }
 
   #form{
       width: 65%;
         margin: 0 auto;
         text-align: center;
-        center center no repeat 
   }  
 }
 
@@ -373,7 +364,6 @@ footer{
         margin: 0 auto;
         text-align: center;
         column-count: 3;
-        center center no repeat
         display: flex-wrap; 
       }
 
@@ -384,7 +374,7 @@ footer{
         max-width: 90vw;
         width: 100%;
         height: auto;
-        center center no repeat
+      
      }
 
     #photography-lessons div {
@@ -418,7 +408,6 @@ footer{
         margin: 0 auto;
         text-align: center;
         column-count: 3;
-        center center no repeat
         display: flex-wrap; 
     }
 
@@ -427,7 +416,6 @@ footer{
         margin: 0 auto;
         text-align: center;
         column-count: 3;
-        center center no repeat
         display: flex-wrap; 
   }
 }
