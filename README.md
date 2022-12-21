@@ -43,43 +43,53 @@ This page has a few main features. I wanted the design to be simple and not dist
 
 #### Logo
 The page has a Logo on the top left next to the Navigation Bar. I like how the logo is positioned here and is clear and unobtrusive.
-
+![Logo](supporting-docs/logo.png)
 #### Navigation Bar 
 The page consists of a navigation bar to enable users to easily navigate around the site at their greatest convenience and leisure. To the left of the Navigation bar is my site logo "Photography for Beginners' I love how simple and elegant it looks and not too distracting!
+![Navigation](supporting-docs/navigation.png)
 
 #### Image 
 There is a photo of a woman taking a photo, I purposely chose a female Photographer as there is still a lot more men in Photography than Women, so I wanted to encourage Women that they can do it too. 
+![image](supporting-docs/woman-camera.png)
 
 #### My vision section text box
 My vision section is important as it explains my vision with the Photography website, lessons available and the studio (studio isn't actually a real studio yet (highly expensive to run), so I haven't put an address on for that reason)!  I also really like the pale blue colour as it isn't too distracting but breaks up the white a bit without too much colour! I love a white background as I find it too distracting with lots of colours and photos on a background.
+![my vision](supporting-docs/my-vision.png)
 
 #### Photography lessons schedule
 The Photography lessons schedule details the lessons available, the times and the locations.  When you navigate to the book a lesson page, it asks you to type in which lesson(s) you are looking for.  Each div has the details needed, a nice fontawesome logo picture to represent better what it is. The background image is of a camera set up to take a landscape Photograph.
+![lessons](supporting-docs/lessons-schedule.png)
 
 #### Footer
 The Footer section has links to social media pages, these include Facebook, Twitter, Youtube and Instagram. If this was for a real Photography lesson site then these would all link to actual Photography Studio social media sites. 
-
+![footer](supporting-docs/footer.png)
 ### Taking a Photo Page
 
 #### Logo and Navigation Bar
 This page also has the same logo and Navigation at the top.
 
 It has the main aim of teaching a beginner Photographer how to take their first Photo. 
+![logo and nav](supporting-docs/logo-nav.png)
 
 #### Taking a Photo - text box
 There is a brief taking a photo section, explaining some information you will need.
+![text](supporting-docs/take-a-photo.png)
 
 #### Image - Woman taking a photo
 Next there is a photo of a woman taking a photo, this aids the visuality of the website and breaks up the text a bit, without being too distracting.
+![image](supporting-docs/woman-taking-photo.png)
 
 #### Exposure Triangle - text box
-The section on the Exposure triangle gives a basic explanation on what it is and how it helps. 
+The section on the Exposure triangle gives a basic explanation on what it is and how it helps.
+![exposure triangle](supporting-docs/expo-triangle.png)
 
 #### Exposure Triangle Diagram
 The diagram image is mine I made based on the standard Exposure Triangles. 
+![exposure triangle diagram](supporting-docs/exposure-triangle.png)
 
 #### Step by Step - text box
 Then there is a Take a Photo - Step by Step Guide. This is made up in boxes that are easy to read and similar to index page to give a consistent flow to the user. 
+![step-by-step](supporting-docs/step-by-step.png)
 
 #### Footer
 The same Footer section is on this page with the social media links.
@@ -87,6 +97,7 @@ The same Footer section is on this page with the social media links.
 ### Portfolio Page:
 The Portfolio page is a selection of different types of Photographs. 
 I wanted a range of genres to show beginner Photographers different genres and styles they can do themselves.  There is a mix of stock photos and my own Photography photos which I hold the copyright to my own images and one from my Partner (see credits section).
+![portfolio](supporting-docs/portfolio.png)
 
 #### Logo & Navigation Bar
 The same Navigation, logo are on this page too.
@@ -99,11 +110,13 @@ The Book a Lesson page is where the user can book a lesson and/or get in touch v
 
 #### Booking Form
 The booking form consists of the main fields of information necessary for booking a lesson: First name, Last name, Email address and a Lesson request field where they can enter the lesson they want etcs. Then a submit button. If this was a live website for a Photographer offering lessons, then the form would go to the email address via a database system, as I understand. However this form just goes to the Code Institute Form dump it said to use. 
+![form](supporting-docs/form.png)
 
 #### Get in Touch - text box
 The Get in Touch div just contains a phone number and email address, as explained above these are fake just for the purpose of the course.
 
 The boxes I used are the pale blue colouring again, I used this throughout the website as I felt it is simple yet elegant and not distracting away from the main purpose of the website.
+![get in touch](supporting-docs/get-in-touch.png)
 
 #### Footer
 The Footer section is on this page with the social media links.
@@ -118,13 +131,14 @@ The Wireframes are handwritten and attached on replit and the Site Map is made o
 ## Responsive Design 
 Responsive design is used through the website to make it easier for the user when viewing the site on different devices, such as 4K screen, PC, Large Laptop, Laptop, Tablet, Mobile and more. 
 These were made using Media Queries and a lot of researching different options online and some choice words at times!! This was rather frustrating as you'd think fantastic it's worked, then something else would rear its ugly head at you! I tried my best and in life that's all you can do is your best and see it as an opportunity for learning and growth. This is an area I would like to develop a greater understanding of further outside of this website project. 
+![responsive form](supporting-docs/form-tablet.png)
 
 ## Testing  
 I tested the website on Mac myself, I don't have the financial option to buy a Windows computer too, but luckily my sister let me send her the link to test on her Windows computer.  It has been tested mainly through Google Chrome browser on macOS. 108.0.5359.124. 2022-12-14 and Safari Browser 16.1	2022-10-24.
 Having issues downloading the firefox browser on the Macbook so haven't tested on that yet. Have tested the site on mobile devices, don't have the finances to buy an ipad to personally test on one, but have tested it on DevTools tablet/ipad options. 
 
 #### Any issues/bugs -
-Text box on form kept going to the right, but now has centered where I want by adapting the css styling.
+Text box on form kept going to the right, but now has centered where I want by adapting the css styling. See GitHub commits on the main branch to see all original website changes.
 Please be aware that there were technical issues when doing my recent commits from Replit to GitHub and GitHub is now not showing these recent commits. I have let Robert McLaughlin and The Code Institute Student support know this. This is going to effect the deployed website unless there is a way round this we (Robert & I) can't think of yet! The main issues that will arise are responsive text box on index on new code has a 1 column rule on smaller devices, so the text doesn't overlap.  
 
 #### WS3 CSS Validation -
@@ -164,6 +178,7 @@ pexels-photomix-company-212372.webp - 'lesson times & step by step'
 
 
 CSS Media Query code snippet columns was referenced from https://www.w3schools.com/cssref/tryit.php?filename=trycss3_media_columns and adapted as necessary.
+![media query adapted](supporting-docs/media-query.png)
 
 Footer - Code snippet was referenced from Love Running and adapted with adding aria-label to make it more accessible to screen readers, I feel this is highly important.
 
@@ -173,7 +188,7 @@ I added a code snippet from Love Running for my 'Photography lessons schedule' a
 It is purposely simple and non distracting, as the website is for beginners so it doesn't need to overly complicate anything! Plus the main purpose is to get someone to take their first photos and to book a lesson if they want to learn more. I really like how effective it is.
 
 ## Anything I would add if developing the website further 
-If I was developing this site further, then this could be an opportunity to grow the site by adding a blog with additional online lessons; this could incorporate a video as well as text for better accessibility needs.  This would then generate more options for retyrning users, as well as new users.
+If I was developing this site further, then this could be an opportunity to grow the site by adding a blog with additional online lessons; this could incorporate a video as well as text for better accessibility needs.  This would then generate more options for returning users, as well as new users.
 
 ## Additional information/Improving my learning experience
 Learning better ways to do things more time efficiently and using a more powerful editor than replit (no offence replit, but for next project I'll try GitPod as I've found out now it's the better option).  More clarity on the project and managing the workload in a way that doesn't negatively affect my Health, as I have really struggled with this whilst on this journey. So it is a HUGE achievement to be getting this far. I also feel it is hard going back to education as an Adult learner, as you feel like you haven't done any coursework for a very long time. So setting daily and weekly SMART targets will help. Also celebrating the small accomplishments as well as the bigger ones, they all add up over time.
