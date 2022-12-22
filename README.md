@@ -29,7 +29,7 @@ The main Project Goal of this website is to teach the User (a Beginner Photograp
 The Developer and Business Goal is for the user (a Beginner Photographer) to book a lesson, as a lot of hobbyist photographers just take photos and don't have lessons.  However it is beneficial to have lessons to progress and also to meet people if joining a camera club. 
 
 ### User Story:
-The User Story of this website is that the user will learn the basics of Photographer to take their first Photo and to then enquire about a lesson, if they would like to. 
+The User Story of this website is that the user will learn the basics of Photography to take their first Photo and to then enquire about a lesson, if they would like to. 
 
 The website will mainly attract new users as once they have been on the website, they will go off and take photographs and then if they come back to the website as a returning user it would be to book a lesson. However, they might book a lesson on their first website visit, but then return to refresh themselves on information and the lesson schedules. If I was developing this site further, then this could be an opportunity to grow the site by adding a blog with additional online lessons; this could incorporate a video as well as text for better accessibility needs.
 
@@ -44,7 +44,7 @@ This page has a few main features. I wanted the design to be simple and not dist
 The page has a Logo on the top left next to the Navigation Bar. I like how the logo is positioned here and is clear and unobtrusive.
 ![Logo](supporting-docs/logo.png)
 #### Navigation Bar 
-The page consists of a navigation bar to enable users to easily navigate around the site at their greatest convenience and leisure. To the left of the Navigation bar is my site logo "Photography for Beginners' I love how simple and elegant it looks and not too distracting!
+The page consists of a navigation bar to enable users to easily navigate around the site at their greatest convenience and leisure. To the left of the Navigation bar is my site logo 'Photography for Beginners';  I love how simple and elegant it looks and not too distracting!
 ![Navigation](supporting-docs/navigation.png)
 
 #### Image 
@@ -137,7 +137,8 @@ I tested the website on Mac myself, I don't have the financial option to buy a W
 Having issues downloading the firefox browser on the Macbook so haven't tested on that yet. Have tested the site on mobile devices, don't have the finances to buy an ipad to personally test on one, but have tested it on DevTools tablet/ipad options. 
 
 #### Any issues/bugs -
-Text box on form kept going to the right, but now has centered where I want by adapting the css styling. See GitHub commits on the main branch to see all original website changes.
+Text box on form kept going to the right, but now has centered where I want by adapting the css styling. See GitHub commits on the main branch to see all original website changes.  Not really bugs, but some issues with fontawesome (see validator sections below). My photography lessons photo loading sometimes and other times it hasn't. 
+
 Please be aware that there were technical issues when doing my recent commits from Replit to GitHub and GitHub main branch is now not showing these recent commits. I have let Robert McLaughlin and The Code Institute Student support know this. The main issues that will arise are responsive text box on index on new code has a 1 column rule on smaller devices, so the text doesn't overlap. I have hopefully rectified this by pushing a commit from replit to GitHub in another branch (see 'most-recent') and seeing if that has the desired effect!
 I then had to change my repository from Private to Public so I could deploy it.
 
@@ -146,15 +147,24 @@ When using WS3 CSS Validation the following occured.
 On first go it pulled up that it didn't like the coding 'center center no repeat' which is strange as this is what the course taught us in the Love Running project, so I would like some feedback as to why the validator didn't accept this, but we were taught to write it? Confusing?!  It also didn't like the fontawesome link or the content dispaly type of px, so changed that too.
 ![code validator attempt one](supporting-docs/code-validator-one.png)
 
+Now the only error is relating to fontawesome, which upon googling and looking on GitHub this seems to be a common issue I could not find the resolution to.  Then the other issue was it doesn't like my flexbox, but this how I was advised on Code Institute Tutor Support, so unsure why it has been flagged as an error as this still works and was in fact recommended. 
+![code validator final attempt](supporting-docs/css-validator.png)
 
+#### HTML Validator
+
+This seems okay, only picked up on the footer and fontawesome issues which seems to be a continued theme, I won't be using fontawesome again as clearly it's not all that awesome!! Please see below.
+
+![HTML code validator](supporting-docs/html-checker.png)
 
 
 #### Chrome Developer Lighthouse -
 Using Lighthouse on Developer (Dev) Tools; this flagged up that under Accessibility it didn't like the Gray text as there was not enough contrast between Gray text and a white background, so gone back to my original colour of Black. I can understand this as Black does seem easier to read now.  Pulled up few images without alt attribute, so added one, but strange that it didn't tell us to on the love running gallery and this was part of our learning material; good Lighthouse picked up on it and gave me the opportunity for more learning.
+![Lighthouse Mobile](supporting-docs/lighthouse-mobile.png)
+![Lighthouse Desktop](supporting-docs/lighthouse-desktop.png)
 
 #### Chrome Developer Lighthouse Scores (Not Incognito mode) - 
 ##### Below are the Desktop scores - 
-Index/Home - Performance: 99 Accessibility: 97 Best Practices: 83 SEO: 100
+Index/Home - Performance: 94 Accessibility: 97 Best Practices: 83 SEO: 100
 Taking a Photo - Performance: 97 Accessibility: 97 Best Practices: 92 SEO: 100
 Portfolio - Performance: 89 Accessibility: 97 Best Practices: 92 SEO: 100 
 Book a Lesson - Performance: 99 Accessibility: 97 Best Practices: 92 SEO: 100
@@ -171,9 +181,9 @@ I deployed my website using GitHub Pages.  I did this by pushing a commit from r
 I then had to change my repository from Private to Public so I could deploy it.
 
 * In GitHub most-recent branch repository, navigate to Settings tab, choose pages tab (on the left)
-* From Source section, choose 'Deplo from a Branch' option. Ensure you choose 'most-recent' NOT main! Click Save.
+* From Source section, choose 'Deploy from a Branch' option. Ensure you choose 'most-recent' NOT main! Click Save.
 * Click root if not automatically selected
-* clicking the visist site button will take you to the site or clicking on the link (as the visit site button didn't come up for me as instructed)
+* clicking the visit site button will take you to the site or clicking on the link (as the visit site button didn't come up for me as instructed)
 * Any changes and adaptations to the 'most-recent' branch will take effect on the live website.
 
 
@@ -204,7 +214,9 @@ It is purposely simple and non distracting, as the website is for beginners so i
 If I was developing this site further, then this could be an opportunity to grow the site by adding a blog with additional online lessons; this could incorporate a video as well as text for better accessibility needs.  This would then generate more options for returning users, as well as new users.
 
 ## Additional information/Improving my learning experience
-Learning better ways to do things more time efficiently and using a more powerful editor than replit (no offence replit, but for next project I'll try GitPod as I've found out now it's the better option).  More clarity on the project and managing the workload in a way that doesn't negatively affect my Health, as I have really struggled with this whilst on this journey. So it is a HUGE achievement to be getting this far. I also feel it is hard going back to education as an Adult learner, as you feel like you haven't done any coursework for a very long time. So setting daily and weekly SMART targets will help. Also celebrating the small accomplishments as well as the bigger ones, they all add up over time.
+Learning better ways to do things more time efficiently and using a more powerful editor than replit (no offence replit, but for next project I'll try GitPod as I've found out now it's the better option).  More clarity on the project and managing the workload in a way that doesn't negatively affect my Health, as I have really struggled with this whilst on this journey. So it is a HUGE achievement to be getting this far. 
+
+I also feel it is hard going back to education as an Adult learner, as you feel like you haven't done any coursework for a very long time. So setting daily and weekly SMART targets will help. Also celebrating the small accomplishments as well as the bigger ones, they all add up over time.
 
 ## Goodbye
 Thank you for spending the time looking at my README.md and my Website. I appreciate it. Hopefully you have a go at Photography too; I've been doing Photography for just under a year now and it's amazing fun, really recommend it. It's a great way to create Art, meet new people, experience new places and wildlife too. The main thing is to have fun.
